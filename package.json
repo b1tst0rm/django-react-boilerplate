@@ -1,0 +1,29 @@
+{
+  "name": "django-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for React frontend/Django backend web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b1tst0rm/django-react-boilerplate.git"
+  },
+  "author": "Daniel Limanowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b1tst0rm/django-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/b1tst0rm/django-react-boilerplate#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.4",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3",
+    "webpack": "^4.15.0",
+    "webpack-bundle-tracker": "^0.3.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

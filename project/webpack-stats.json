@@ -1,0 +1,1 @@
+{"status":"error","publicPath":"http://localhost:3000/assets/bundles/","error":"ModuleNotFoundError","message":"Module not found: Error: Can't resolve './project/assets/js/index' in '/home/dlimanow/django-react-boilerplate'"}
