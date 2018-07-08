@@ -1,7 +1,7 @@
 # django-react-boilerplate
 A boilerplate to integrate the following technologies:
-Django (backend)
-React JS (frontend)
+1) Django (backend)
+1) React JS (frontend)
 
 The goal for this boilerplate is to provide a simple template that encourages
 rapid, pain-free development of a modern, single-page web application.
