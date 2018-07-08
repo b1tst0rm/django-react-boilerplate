@@ -29,7 +29,7 @@ browser at `127.0.0.1:8000`
 ### Production
 Build the webpack JS-related files/bundles: `npm run build`
 
-Collect static files: `python manage.py collectstatic --settings=project.production_settings
+Collect static files: `python manage.py collectstatic --settings=project.production_settings`
 
 Run Django with production settings: `python manage.py runserver --settings=project.production_settings`
 
