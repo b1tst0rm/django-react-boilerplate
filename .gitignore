@@ -4,3 +4,4 @@ venv/
 *.swp
 db.sqlite3
 assets/bundles/
+static/
