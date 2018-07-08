@@ -14,15 +14,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'j!lo2wekm89au!hx@_8)qi2#x=hryx7r(64l*^5-6j!+ul)y)t'
+SECRET_KEY = '!_$6oqa1!!e@)$owx=$t%*vq5ys$b^s)1gp^5@^@c!6)dfu-4j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-if DEBUG:
-    ALLOWED_HOSTS = ['*']
-else:
-    ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -119,8 +116,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-# django-webpack-loader config
+
+# Webpack Loader Configuration (for development)
 
 WEBPACK_LOADER = {
     'DEFAULT': {
